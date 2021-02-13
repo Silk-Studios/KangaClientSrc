@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "io.github.si1kn.KangarooClient.mixins",
+  "mixins": [
+    "client.MinecraftMixin",
+    "client.gui.GuiMainMenuMixin",
+    "client.gui.GuiScreenMixin",
+    "client.gui.GuiScreenResourcePacksMixins",
+    "client.multiplayer.MixinsGuiConnecting",
+    "client.renderer.EntityRendererMixin",
+    "client.renderer.ItemRendererMixin",
+    "client.renderer.MixinRenderEntityItem",
+    "client.renderer.entity.RenderPlayerMixin"
+  ]
+}
